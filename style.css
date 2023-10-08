@@ -1,0 +1,553 @@
+/* hero */
+   .hero h1{
+    font-family: 'Nunito', cursive;
+    font-size: 74px;
+    font-weight: 1000;
+    text-align: left;
+    padding-top: 100px;
+    padding-left: 40px;
+    color:purple;
+   }
+
+   .hero p{
+    text-align: left;
+    padding-left: 40px;
+    font-weight: bold;
+    padding-top: 20px;
+    font-family: 'Open Sans';
+
+   }
+/* search bar */
+.search-container {
+    display: flex;
+
+    align-items: center;
+    width: 650px; /* Adjust the width as needed */
+    border: 1px solid #ccc;
+    margin-left: 40px;
+    border-radius: 5px;
+    
+}
+
+/* Style for the search input field */
+.search-input {
+    flex: 1;
+
+    border: none;
+    padding: 5px;
+    font-size: 30px;
+
+    
+    
+}
+
+/* Style for the search icon */
+.search-icon {
+    padding: 25px;
+     /* Change the background color as desired */
+    color: white; /* Change the text color as desired */
+    background-color: purple;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    cursor: pointer;
+}
+.containerimg {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #0a0f26;
+    color: white;
+    /* padding: 20px; */
+    margin: 40px;
+    border-radius: 20px;
+    height: 650px
+}
+
+.containerimg1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #5ac0dc;
+    color: white;
+    /* padding: 20px; */
+    margin: 50px;
+    border-radius: 20px;
+    height: 650px
+}
+
+.text {
+    flex: 1;
+    padding-right: 90px;
+    padding-left: 30px
+}
+
+.image {
+    flex: 1;
+    text-align: right;
+
+}
+
+.image img {
+    max-width: 100%;
+    height: 650px;
+
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.imageof img {
+    max-width: 100%;
+    height: 120px;
+
+}
+
+.title {
+    font-size: 17px;
+    margin-bottom: 10px;
+    font-family: 'Open Sans';
+}
+
+.title1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+    font-family: 'Museo', sans-serif;
+    color: #18202B;
+    line-height: 40px;
+    font-weight: 500;
+    margin-top: 10px;
+    margin-bottom: 20px;
+
+}
+
+.title0 {
+    color: black;
+    font-size: 17px;
+}
+
+.textoftop1 {
+    font-size: 17px;
+    font-family: 'Open Sans';
+    color: #18202B;
+    font-weight: 400px;
+}
+
+.description {
+    font-size: 52px;
+    margin-top: 20px;
+    font-family: "Museo", sans-serif;
+    /* Set the font-family to Museo */
+    opacity: 0.8;
+}
+
+.button {
+    background-color: #ff7300;
+    color: white;
+    font-family: 'open sans';
+    padding: 10px 20px;
+    height: 50px;
+    font-size: 14px;
+    text-decoration: none;
+    margin-top: 40px;
+    border: none;
+    border-radius: 5px;
+    display: inline-flex;
+    /* Use flex to center content */
+    align-items: center;
+    /* Center vertically */
+    justify-content: center;
+    /* Center horizontally */
+}
+
+.button1 {
+    background-color: white;
+    color: #5ac0dc;
+    font-family: 'open sans';
+    padding: 10px 20px;
+    height: 50px;
+    font-size: 14px;
+    text-decoration: none;
+    margin-top: 40px;
+    border: none;
+    border-radius: 5px;
+    display: inline-flex;
+    /* Use flex to center content */
+    align-items: center;
+    /* Center vertically */
+    justify-content: center;
+    /* Center horizontally */
+}
+
+.navbar {
+    background-color: #f5f7fa;
+}
+
+.dropdown-hover:hover>.dropdown-menu {
+    display: inline-block;
+}
+
+.dropdown-hover>.dropdown-toggle:active {
+    /*Without this, clicking will make it sticky*/
+    pointer-events: none;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12.8117px;
+    font-weight: 700;
+}
+
+.navbar-brand {
+    color: #5b5d63;
+    font-size: 24px;
+}
+
+.navbar-nav {
+    color: #5b5d63;
+    transition: color 0.3s ease;
+    /* Add a smooth transition effect */
+}
+
+.navbar-toggler-icon {
+    background-color: #5b5d63;
+}
+
+/* Custom styles for the search button */
+.search-button {
+    border: 1px solid #40accd;
+    margin-right: 10px;
+    font-family: 'Open Sans';
+    color: #40accd;
+}
+
+.search-button i {
+    margin-right: 5px;
+}
+
+.search-button:hover {
+    color: #74defe
+}
+
+/* Hover effect for specific nav-links */
+.navbar-nav .nav-item:hover .nav-link {
+    color: #fe8522;
+    /* Change the text color to match the "Freelancer?" button */
+}
+
+.navbar-nav .nav-item .nav-link.nav-button {
+    color: #5b5d63;
+    /* Default text color */
+    transition: color 0.3s ease;
+    /* Add a smooth color transition effect */
+}
+
+/* Style for the hover state of custom buttons */
+.navbar-nav .nav-item .nav-link.nav-button:hover {
+    color: #fe8522;
+    /* Change the text color to match the "FREELANCER?" button */
+}
+
+
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.text-block {
+    flex: 1;
+    text-align: center;
+}
+
+.textoftop {
+    font-size: 17px;
+    font-weight: normal;
+    text-align: left;
+    margin: 10px 0;
+    font-family: 'Open Sans';
+    margin-left: 60px;
+    margin-right: 60px;
+    color: #18202B;
+    font-weight: 1px;
+    line-height: 25px;
+}
+
+
+.orange-text {
+    color: #B33C00;
+    font-size: 29px;
+    line-height: 32px;
+    vertical-align: baseline;
+    letter-spacing: normal;
+}
+
+.maindiv {
+    background-color: #f5f7fa;
+}
+/* card */
+
+
+
+/* Style for the card image */
+.card img {
+    width: 100%;
+    height: auto;
+}
+
+/* Style for the card content */
+.card-content {
+    padding: 20px;
+}
+
+/* Style for the card heading */
+.card-heading {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+/* Style for the profile section */
+.profile {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.profile img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.profile-details {
+    flex-grow: 1;
+}
+.card .card-img{
+    width:100%;
+    height:32vh;
+    object-fit: cover;
+}
+.profile-details .name {
+    font-weight: bold;
+}
+
+.profile-details .rating {
+    color: gold;
+}
+
+/* Style for rating, orders, price, and last delivered */
+.info {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+/* Hover effect */
+.card:hover {
+    transform: scale(1.05);
+}
+
+/* freelance */
+
+.profile-card {
+    width: 300px;
+    background-color: #fff;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    overflow: hidden;
+    margin-top: 20px;
+    display: inline-block;
+    transition: transform 0.3s ease;
+}
+
+/* Style for the circular image */
+.profile-image {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    display: block;
+    margin:auto;
+    margin-top: 20px;
+}
+/* Style for the card content */
+.profile-info {
+    padding: 20px;
+}
+
+/* Style for the name */
+.profile-name {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+/* Style for the description */
+.profile-description {
+    font-size: 14px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+/* Style for the rating */
+.profile-rating {
+    text-align: center;
+    margin-bottom: 10px;
+    color:gold;
+}
+
+.profile-rating span {
+    color: gold;
+}
+
+/* Style for the skills section */
+.profile-skills {
+    text-align: center;
+}
+
+.profile-skills ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.profile-skills li {
+    display: inline-block;
+    margin-right: 10px;
+    background-color: #f2f2f2;
+    padding: 5px 10px;
+    border-radius: 15px;
+}
+
+/* Hover effect */
+.profile-card:hover {
+    transform: scale(1.05);
+}
+
+/* categories */
+.category-card {
+    width: 300px;
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    overflow: hidden;
+    margin-top: 20px;
+    display: inline-block;
+    position: relative;
+}
+.card {
+    width: 300px;
+    position: relative;
+    background-color: #fff;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    overflow: hidden;
+    margin-top: 20px;
+    display: inline-block;
+    transition: transform 0.3s ease;
+}
+
+/* Style for the category name */
+.category-name {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    color:white;
+}
+       
+.categories{
+    margin-left:40px;
+    margin-top:40px;
+}
+
+.text-uppercase{
+    text-align:left;
+}
+.list-unstyled{
+    text-align:left;
+}
+
+.testimonial-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.testimonial {
+    flex: 1;
+    max-width: 100%;
+    background-color: #f9f9f9;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    height:400px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+.quote-mark {
+    font-size: 80px;
+    text-align: left;
+    font-weight: bold;
+}
+
+.testimonial img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    padding-top: 20px;
+    margin-bottom: 10px;
+}
+
+.quote {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.author {
+    font-weight: bold;
+}
+
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    font-size: 1.2em;
+    padding-top: 30px;
+    margin-bottom: 10px;
+}
+
+.containerimg1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    color: white;
+    margin: 40px;
+    height: 650px
+}
+.text1 {
+    flex: 1;
+    padding-right: 90px;
+    padding-left: 30px;
+    color:black
+}
+.image1 {
+    flex: 1;
+    text-align: right;
+
+}
+
+.image1 img {
+    max-width: 120%;
+    padding-right: 40px;
+    height: 400px;
+
+    
+}
